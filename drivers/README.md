@@ -68,11 +68,21 @@ The signature is **path-bound** — reusing one for a different file returns
 
 ```bash
 pip install -r requirements.txt
-python download_asus.py            # downloads latest of each category
-python download_remaining.py       # downloads specific paths (Chipset/SerialIO/GNA/DTT/RST)
+
+# Download the latest driver of each category (skips iGPU VGA by default)
+python download_asus.py \
+  --model "PRIME Z690-A" \
+  --pdid 19159 \
+  --hashedid z8oofpynawhdp7z3 \
+  --dest "G:\Drivers\ASUS"
+
+# Download specific driver paths (Chipset/SerialIO/GNA/DTT/RST)
+python download_remaining.py
 ```
 
-Downloads land in `G:\Drivers\ASUS` by default — edit `DEST` at the top.
+`download_asus.py` accepts `--model`, `--pdid`, `--hashedid`, `--osid`
+(52 = Windows 11 64-bit), `--dest`, and `--skip-categories` (defaults to
+`VGA Drivers`).
 
 ## Parallel chunked download
 
