@@ -70,3 +70,12 @@ curl -L -o VBCABLE_Driver_Pack46.zip \
 ## License
 
 MIT
+
+## Related repos
+
+- [**diskaudit**](https://github.com/toxicwind/diskaudit) — the disk migration
+  + `install/post-install.ps1` headless post-install script for this reinstall.
+- [**omp-windows**](https://github.com/toxicwind/omp-windows) — the omp configs
+  restored after install.
+- [**omp-model-benchmarks**](https://github.com/toxicwind/omp-model-benchmarks)
+  — the model catalog/benchmark data gathered during this prep.
