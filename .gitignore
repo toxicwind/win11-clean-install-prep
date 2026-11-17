@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloads / large binaries
+*.zip
+*.exe
+*.iso
+*.wim
+test.zip
+downloads/
+
+# OS
+Thumbs.db
+.DS_Store
