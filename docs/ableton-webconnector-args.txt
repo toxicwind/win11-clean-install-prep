@@ -1,0 +1,23 @@
+{
+    "pid": 365408,
+    "session_id": "",
+    "ipc_channel_id": "wc4823c94",
+    "version": "12.4.6",
+    "platform": "win",
+    "wordsize": "64",
+    "app_base_path": "C:\\ProgramData\\Ableton\\Live 12 Suite",
+    "app_exe_path": "C:\\ProgramData\\Ableton\\Live 12 Suite\\Program\\Ableton Live 12 Suite.exe",
+    "wait_for_confirmation": false,
+    "autoupdates_dir_base_path": "C:\\ProgramData\\Ableton\\Live 12 Suite",
+    "aip_usage_data_dir": "C:\\Users\\Snacky\\AppData\\Roaming\\Ableton\\Live Reports\\Usage",
+    "services_endpoint": "https://services.ableton.com",
+    "live_variant": "Suite",
+    "crash_detection_file": "C:\\Users\\Snacky\\AppData\\Roaming\\Ableton\\Live 12.4.6\\Preferences\\CrashDetection.cfg",
+    "commands": {},
+    "logging": {
+        "file_path": "C:\\Users\\Snacky\\AppData\\Roaming\\Ableton\\Live 12.4.6\\Preferences\\wc.log",
+        "log_level": "info"
+    },
+    "swapper_exe": "C:\\ProgramData\\Ableton\\Live 12 Suite\\Resources\\Extensions\\WebConnector\\Ableton Swapper.exe",
+    "usage_report_prefix": "20261110T131644_365408"
+}
